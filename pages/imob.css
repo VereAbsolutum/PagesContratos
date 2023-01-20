@@ -1,0 +1,78 @@
+@page {
+    size: A4;
+    margin: 0;
+  }
+  
+  .page {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    padding: 2cm;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header img {
+    width: 150px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .identification, .object, .term, .value, .conditions {
+    margin-bottom: 20px;
+  }
+  
+  .identification h2, .object h2, .term h2, .value h2, .conditions h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .identification ul, .conditions ul {
+    font-size: 14px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  .identification ul li, .conditions ul li {
+    margin-bottom: 10px;
+  }
+  
+  .signatures {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .signature {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .signature .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .signature .role {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+  }

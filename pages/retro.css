@@ -1,0 +1,36 @@
+/* ESTILO RETRO */
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  padding: 2cm;
+  background-color: #F5F5F5;
+  font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+p, ul {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+} 

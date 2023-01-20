@@ -1,0 +1,38 @@
+
+
+/* ESCALA AUREA */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+  padding: 2cm;
+  background-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36/1.6180339887; /* 22.360679774997898 */
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+p, ul {
+  font-size: 22.360679774997898/1.6180339887; /* 13.856406460551018 */
+  margin-bottom: 10px;
+  line-height: 1.5;
+} 
